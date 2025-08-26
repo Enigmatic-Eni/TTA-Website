@@ -72,7 +72,7 @@ const SidebarContent = ({ isMobile = false }) => (
       </div>
 
       {/* Prayer Request CTA */}
-      <div className="bg-[#5C46A6] flex flex-col lg:mt-20 xl:mt-14 justify-between p-4 w-[150px] xl:w-[200px] rounded-lg cursor-pointer">
+      <div className="bg-[#5C46A6] flex flex-col lg:mt-20 xl:mt-14 justify-between ml-3 p-4 w-[150px] xl:w-[200px] rounded-lg cursor-pointer">
         <div className="flex flex-col  gap-6">
           <img src={Assets.dots} alt="" className="w-5 h-5" />
           {(!isMobile || isOpen) && (
@@ -84,7 +84,7 @@ const SidebarContent = ({ isMobile = false }) => (
     </div>
 
     {/* Footer */}
- <div className=" shrink-0 text-xs text-center py-4 text-gray-400 lg:mt-14">
+ <div className=" shrink-0 text-xs text-left py-4 text-gray-400 ml-3 lg:mt-14">
     {(!isMobile || isOpen) ? (
       <>
         TTA Online Portal Version 1 <br /> <br /> Made with ♥ by TTA Tech guys
