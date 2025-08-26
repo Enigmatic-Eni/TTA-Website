@@ -7,12 +7,12 @@ import gift from "./gift.png"
 import check from './check.png'
 import profile from "./profile.png"
 import arrow from "./arrow.png"
-import aop from "./aop.png"
-import aop2 from "./aop2.png"
-import aop3 from "./aop3.png"
-import aop4 from "./aop4.png"
-import aop5 from "./aop5.png"
-import aop6 from "./aop6.png"
+import aop from "./AOP.png"
+import aop2 from "./AOP2.png"
+import aop3 from "./AOP3.png"
+import aop4 from "./AOP4.png"
+import aop5 from "./AOP5.png"
+import aop6 from "./AOP6.png"
 import calendar from "./calendar.png"
 
 export const Assets = {
