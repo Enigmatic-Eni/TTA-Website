@@ -3,7 +3,7 @@ import { Menu, Search, Bell } from "lucide-react";
 import { Assets } from "../assets/Assets"
 
 
-export default function Navbar({ onMenuClick }) {
+export default function Navbar({ }) {
   return (
     <div className="bg-white  px-4 lg:px-6 py-4">
 
