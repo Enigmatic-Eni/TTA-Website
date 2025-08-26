@@ -84,7 +84,7 @@ const SidebarContent = ({ isMobile = false }) => (
     </div>
 
     {/* Footer */}
- <div className=" shrink-0 text-xs text-center py-4 text-gray-400 lg:mt-20 lg:mt-14">
+ <div className=" shrink-0 text-xs text-center py-4 text-gray-400 lg:mt-14">
     {(!isMobile || isOpen) ? (
       <>
         TTA Online Portal Version 1 <br /> <br /> Made with ♥ by TTA Tech guys
